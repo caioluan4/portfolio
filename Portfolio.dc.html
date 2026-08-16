@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+
+<helmet>
+  <link rel="stylesheet" href="_ds/industry-57dd0dc9-11b4-4b10-9ac4-4a4dd280da4d/styles.css">
+  <script src="_ds/industry-57dd0dc9-11b4-4b10-9ac4-4a4dd280da4d/_ds_bundle.js"></script>
+  <script src="./image-slot.js"></script>
+  <style>
+    body{margin:0;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body)}
+    a{color:var(--color-accent-700);text-decoration:none}
+    a:hover{color:var(--color-accent-900);text-decoration:underline}
+    .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+    .idx{font-family:var(--font-heading);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--color-accent-700)}
+    @media (min-width:860px){ .wrap{padding:0 40px} }
+  </style>
+</helmet>
+
+<div style="min-height:100vh;display:flex;flex-direction:column">
+
+  <section style="padding:36px 0 28px">
+    <div class="wrap">
+      <h1 style="font-family:var(--font-heading);font-weight:700;font-size:clamp(32px,6vw,60px);line-height:1;margin:0 0 14px;max-width:16ch">Sites completos para pequenos negócios &mdash; do design ao código.</h1>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a href="#camarao" class="btn btn-primary" style="padding:10px 20px;font-family:var(--font-heading);letter-spacing:.02em">Ver case completo</a>
+        <a href="#contato" class="btn btn-secondary" style="padding:10px 20px;font-family:var(--font-heading);letter-spacing:.02em">Falar agora</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="camarao" style="padding:40px 0;border-top:1px solid var(--color-neutral-300);background:var(--color-neutral-100)">
+    <div class="wrap">
+      <h2 style="font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,5vw,44px);margin:0 0 8px">Casa do Camarão</h2>
+      <p style="font-size:15px;line-height:1.4;max-width:56ch;margin:0 0 24px;color:var(--color-neutral-800)">Pacote integrado: linktree + landing page + painel de estatísticas próprio.</p>
+
+      <div style="display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+
+        <div class="card blueprint elev-sm" style="padding:0;overflow:hidden;background:var(--color-bg)">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="height:220px">
+            <image-slot id="mock-linktree" shape="rect" placeholder="Print do Linktree"></image-slot>
+          </div>
+          <div style="padding:20px">
+            <span class="tag tag-accent" style="margin-bottom:12px;display:inline-block">Linktree</span>
+            <div class="card-title" style="font-family:var(--font-heading);font-size:20px;margin-bottom:8px">Ponto de entrada único</div>
+            <p class="card-body" style="margin:0 0 16px;font-size:15px;color:var(--color-neutral-700)">Reúne WhatsApp, cardápio, endereço e redes em uma página só.</p>
+            <a href="https://casadocamaraoam1.com.br/links/" target="_blank" rel="noopener">Ver ao vivo &rarr;</a>
+          </div>
+        </div>
+
+        <div class="card blueprint elev-sm" style="padding:0;overflow:hidden;background:var(--color-bg)">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="height:220px">
+            <image-slot id="mock-landing" shape="rect" placeholder="Print da Landing Page"></image-slot>
+          </div>
+          <div style="padding:20px">
+            <span class="tag tag-accent" style="margin-bottom:12px;display:inline-block">Landing page</span>
+            <div class="card-title" style="font-family:var(--font-heading);font-size:20px;margin-bottom:8px">Site principal</div>
+            <p class="card-body" style="margin:0 0 12px;font-size:15px;color:var(--color-neutral-700)">Apresentação do negócio, cardápio completo e receitas em página própria.</p>
+            <div style="display:flex;flex-direction:column;gap:4px">
+              <a href="https://casadocamaraoam1.com.br/" target="_blank" rel="noopener">Ver site &rarr;</a>
+              <a href="https://casadocamaraoam1.com.br/receitas/" target="_blank" rel="noopener" style="font-size:14px;color:var(--color-neutral-700)">+ Página de receitas &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card blueprint elev-sm" style="padding:0;overflow:hidden;background:var(--color-bg)">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="height:220px">
+            <image-slot id="mock-dashboard" shape="rect" placeholder="Print do painel (imagem genérica por agora)"></image-slot>
+          </div>
+          <div style="padding:20px">
+            <span class="tag tag-accent-2" style="margin-bottom:12px;display:inline-block">Ferramenta própria</span>
+            <div class="card-title" style="font-family:var(--font-heading);font-size:20px;margin-bottom:8px">Painel de estatísticas</div>
+            <p class="card-body" style="margin:0;font-size:15px;color:var(--color-neutral-700)">Construído do zero para o negócio &mdash; não é um produto de terceiros com licença mensal. Cliente acompanha o próprio site com dados que são dele.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:40px 0;border-top:1px solid var(--color-neutral-300)">
+    <div class="wrap">
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <span class="tag tag-outline">Landing pages</span>
+        <span class="tag tag-outline">Domínios &amp; hospedagem</span>
+        <span class="tag tag-outline">Analytics &amp; dashboards</span>
+        <span class="tag tag-outline">Linktree &amp; mídia social</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" style="padding:40px 0;border-top:1px solid var(--color-neutral-300);background:var(--color-neutral-900)">
+    <div class="wrap">
+      <h2 style="font-family:var(--font-heading);font-weight:700;font-size:clamp(26px,4vw,40px);margin:0 0 20px;color:var(--color-bg)">Contato</h2>
+      <div style="display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));max-width:820px">
+
+        <div class="card blueprint" style="background:transparent;border-color:var(--color-accent-300);padding:20px">
+          <i class="corner tl" style="border-color:var(--color-accent-300)"></i><i class="corner tr" style="border-color:var(--color-accent-300)"></i><i class="corner bl" style="border-color:var(--color-accent-300)"></i><i class="corner br" style="border-color:var(--color-accent-300)"></i>
+          <div class="tag tag-accent" style="margin-bottom:12px;display:inline-block">Principal</div>
+          <a href="https://wa.me/5592982324861" target="_blank" rel="noopener" style="display:block;color:var(--color-bg);font-family:var(--font-heading);font-size:18px;margin-bottom:6px">WhatsApp &rarr; (92) 98232-4861</a>
+          <a href="mailto:caioluan700@gmail.com" style="display:block;color:var(--color-accent-300);font-size:15px">caioluan700@gmail.com</a>
+        </div>
+
+        <div class="card blueprint" style="background:transparent;border-color:var(--color-neutral-600);padding:20px">
+          <i class="corner tl" style="border-color:var(--color-neutral-600)"></i><i class="corner tr" style="border-color:var(--color-neutral-600)"></i><i class="corner bl" style="border-color:var(--color-neutral-600)"></i><i class="corner br" style="border-color:var(--color-neutral-600)"></i>
+          <div class="tag tag-neutral" style="margin-bottom:12px;display:inline-block">Sócio 2</div>
+          <div style="color:var(--color-neutral-400);font-family:var(--font-heading);font-size:18px;margin-bottom:6px">WhatsApp &rarr; [adicionar número]</div>
+          <div style="color:var(--color-neutral-500);font-size:15px">[adicionar e-mail]</div>
+        </div>
+
+        <div class="card blueprint" style="background:transparent;border-color:var(--color-neutral-600);padding:20px">
+          <i class="corner tl" style="border-color:var(--color-neutral-600)"></i><i class="corner tr" style="border-color:var(--color-neutral-600)"></i><i class="corner bl" style="border-color:var(--color-neutral-600)"></i><i class="corner br" style="border-color:var(--color-neutral-600)"></i>
+          <div class="tag tag-neutral" style="margin-bottom:12px;display:inline-block">Sócio 3</div>
+          <div style="color:var(--color-neutral-400);font-family:var(--font-heading);font-size:18px;margin-bottom:6px">WhatsApp &rarr; [adicionar número]</div>
+          <div style="color:var(--color-neutral-500);font-size:15px">[adicionar e-mail]</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+</div>
+
+</x-dc>
+</body>
+</html>
